@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Clipboard_App
 //
-//  Created by Amat on 03/11/19.
+//  Created by vijaygenius123  on 03/11/19.
 //  Copyright © 2019 vijaygenius123. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Clipboard_App
 //
-//  Created by Amat on 03/11/19.
+//  Created by vijaygenius123 on 03/11/19.
 //  Copyright © 2019 vijaygenius123. All rights reserved.
 //
 
@@ -30,6 +30,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        if let vc = window?.rootViewController as? ViewController {
+            vc.addText()
+        }
     }
 
     func sceneWillResignActive(_ scene: UIScene) {
